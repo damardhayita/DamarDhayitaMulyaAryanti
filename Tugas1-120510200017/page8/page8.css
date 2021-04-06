@@ -1,0 +1,87 @@
+h1{
+    color:goldenrod;
+    text-align: center;
+    background-color: black;
+}
+body{
+    margin-bottom:120px;
+    text-align:center;
+    background-image:url('Untitled-2.png');
+    background-position: relative;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    text-align: left;
+    position:relative;
+    background-color: lightgray;
+}
+.nav{
+    border:solid;
+    background-color: dimgray;
+    border-color:darkslategrey;
+    border-width: 2px;
+    position:absolute;
+    left:0px;
+    width:200px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+.section1{
+    /*position is static by default*/
+    border:dashed;
+    background-color: lightslategray;
+    border-color:navy;
+    border-width: 2px;
+    margin-left: 200px;
+}
+.section2{
+    /*position is static by default*/
+    border:solid;
+    background-color: lightyellow;
+    border-color:khaki;
+    border-width: 2px;
+    margin-left: 200px;
+}
+.section3{
+    /*position is static by default*/
+    background-color: lightblue;
+    border:dotted;
+    border-color:lightseagreen;
+    border-width: 2px;
+    margin-left: 200px;
+}
+.footer{
+    border:solid;
+    border-width:5px;
+    border-color:green;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height:70px;
+    background-color:lightgreen;
+    width:100%;
+}
+button{
+    text-align: center;
+    size: 50px;
+    border-radius: 5px;
+    border-width:0px;
+    color:white;
+    background-color:black;
+    height: 30px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    margin-top: 150px;
+    color:white;
+}
+.footer1{
+    text-align:center;
+    display:block;
+}

@@ -1,0 +1,43 @@
+body{
+    text-align:center;
+    background:repeating-radial-gradient(white, lightgray);
+}
+h1{
+    color:goldenrod;
+    text-align: center;
+    background-color:black;
+}
+img{
+    float:right;
+    max-height: 200px;
+}
+div{
+    text-align: justify;
+    border:dotted;
+    border-width:5px;
+    border-color:gold;
+}
+.clearfix{
+    text-align: justify;
+    overflow:auto;
+    zoom:1;
+}
+button{
+    text-align: center;
+    size: 50px;
+    border-radius: 5px;
+    border-width:0px;
+    background-color:black;
+    height: 30px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    margin-top: 150px;
+    color:white;
+}
+footer{
+    text-align:center;
+    display:block;
+}

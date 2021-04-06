@@ -1,0 +1,116 @@
+body{
+    margin-bottom:120px;
+    text-align:center;
+    background-image:url('Untitled-2.png');
+    background-position: relative;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    color:goldenrod;
+    text-align: center;
+    background-color:black;
+}
+.container{
+    text-align:left;
+    border:solid;
+    border-color:lightcoral;
+    border-width: 6px;
+    position:relative;
+    display:-webkit-flex;
+    display:flex;
+}
+.nav{
+    border:solid;
+    border-color:teal;
+    border-width: 4px;
+    float:left;
+    width:200px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+.flex-column{
+    border:solid;
+    border-color:white;
+    border-width: 4px;
+    -webkit-flex:1;
+            flex:1;
+}
+.section{
+    /*position is static by default*/
+    border:solid;
+    border-color:seagreen;
+    border-width: 4px;
+}
+.initial{
+    border:solid;
+    border-width: 2px;
+    border-color: lightcoral;
+    -webkit-flex:initial;
+            flex:initial;
+    width:200px;
+    min-width:100px;
+}
+.none{
+    border:solid;
+    border-width: 2px;
+    border-color: lightcoral;
+    -webkit-flex:none;
+            flex:none;
+    width:200px;
+}
+.flex1{
+    border:solid;
+    border-width: 2px;
+    border-color: lightcoral;
+    -webkit-flex:1;
+            flex:1;
+}
+.flex2{
+    -webkit-flex:2;
+            flex:2;
+    border:solid;
+    border-width: 2px;
+    border-color: lightcoral;
+}
+div{
+    border-style: groove;
+    border-width: 6px;
+    border-color: teal;
+}
+.vertical-container{
+    border:dotted;
+    border-width: 6px;
+    border-color: seagreen;
+    height: 300px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+button{
+    text-align: center;
+    size: 50px;
+    border-radius: 5px;
+    border-width:0px;
+    color:white;
+    background-color:black;
+    height: 30px;
+    width: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    margin-top: 150px;
+    color:white;
+}
+footer{
+    text-align: center;
+}

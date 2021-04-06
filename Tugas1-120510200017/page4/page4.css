@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(163, 165, 132);
+    background-image: url('Catching\ Fire.png');
+    background-position: center;
+    background-position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+h1{
+    color:silver;
+    text-align: center;
+    background-color:black;
+}
+p{
+    max-width: 600px;
+    margin:0 auto;
+    background-color:silver;
+}
+button{
+    text-align: center;
+    size: 50px;
+    border-radius: 5px;
+    border-width:0px;
+    color:white;
+    background-color:black;
+    height: 30px;
+    width: 100px;
+}
+footer{
+    text-align:center;
+    display:block;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    margin-top: 150px;
+    color:white;
+}

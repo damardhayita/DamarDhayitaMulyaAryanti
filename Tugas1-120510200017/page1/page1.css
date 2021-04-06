@@ -1,0 +1,41 @@
+h1{
+    color:goldenrod;
+    text-align:center;
+    background-color: black;
+}
+body{
+    background-image:url('Untitled-2.png');
+    background-position: relative;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align:center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+button{
+    text-align: center;
+    size: 50px;
+    border-radius: 5px;
+    border-width:0px;
+    color:white;
+    background-color:black;
+    height: 30px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    margin-top: 150px;
+    color:white;
+}
+footer{
+    object-position: center;
+    text-align:center;
+    display:block;
+}

@@ -1,0 +1,46 @@
+body{
+    background-color:lightyellow;
+    background-image: url('Untitled-2.png');
+    background-position: center;
+    background-position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+h1{
+    color:lightseagreen;
+    text-align: center;
+    background-color: black;
+}
+.simple{
+    width:500px;
+    margin:20px auto;
+}
+.fancy{
+    width:500px;
+    margin:20px auto;
+    padding:50px;
+    border-width:10px;
+    border:solid;
+    text-align: justify;
+}
+button{
+    text-align: center;
+    size: 50px;
+    border-radius: 5px;
+    border-width:0px;
+    color:white;
+    background-color:black;
+    height: 30px;
+    width: 100px;
+}
+footer{
+    text-align:center;
+    display:block;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    margin-top: 150px;
+    color:white;
+}
